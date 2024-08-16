@@ -1,8 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
-body {
+* {
+  margin: 0;
+  padding: 0;
   font-family: "VT323", monospace;
   font-style: normal;
-}
-a {
   text-decoration: none;
+}
+.main-index {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  margin: 0 auto;
+  width: 900px;
+  text-align: center;
 }
