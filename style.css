@@ -6,6 +6,9 @@
   font-style: normal;
   text-decoration: none;
 }
+h1 {
+  font-size: 45px;
+}
 .main-index {
   display: flex;
   align-items: center;
@@ -15,4 +18,12 @@
   margin: 0 auto;
   width: 900px;
   text-align: center;
+}
+.p-index {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.enter {
+  font-size: 35px;
 }
