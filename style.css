@@ -6,6 +6,8 @@
   font-style: normal;
   text-decoration: none;
 }
+body{
+  background-color:#1d1d1d;
 h1 {
   font-size: 45px;
 }
