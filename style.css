@@ -6,8 +6,10 @@
   font-style: normal;
   text-decoration: none;
 }
-body{
-  background-color:#1d1d1d;
+body {
+  background-color: #1d1b21;
+  color: aliceblue;
+}
 h1 {
   font-size: 45px;
 }
@@ -31,4 +33,12 @@ h1 {
 }
 .enter:hover {
   text-decoration: underline;
+}
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: lightblue;
+  }
+  .mobile-container {
+    width: 400px;
+  }
 }
