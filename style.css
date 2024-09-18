@@ -13,6 +13,12 @@ body {
 h1 {
   font-size: 45px;
 }
+ul {
+  list-style: none;
+}
+li {
+  margin-top: 5px;
+}
 .main-index {
   display: flex;
   align-items: center;
@@ -33,6 +39,19 @@ h1 {
 }
 .enter:hover {
   text-decoration: underline;
+}
+.navigation {
+  text-align: center;
+}
+.border {
+  border: 1px solid white;
+}
+.div-container {
+  margin: 40px;
+  padding: 20px;
+}
+.omega-header {
+  text-align: center;
 }
 @media only screen and (max-width: 480px) {
   body {
